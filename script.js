@@ -4,11 +4,9 @@ var result;
 function getTriangleArea(a, h) {
     if ((a <= 0) || (h <= 0)) {
         result = 'Nieprawidłowe dane'
-    } else if ((a > 0) && (h > 0)) {
-        result = a * h / 2
     } else {
-        console.log('Wprowadź wyłącznie liczby')
-    };
+        result = a * h / 2
+    }
     return result;
 };
 var triangle1Area = getTriangleArea(8, 11);
